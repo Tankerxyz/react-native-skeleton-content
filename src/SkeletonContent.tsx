@@ -3,10 +3,6 @@ import { LayoutChangeEvent, StyleSheet, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { useSharedValue, interpolate } from 'react-native-reanimated';
 import {
-  loop,
-  useValue,
-} from 'react-native-redash';
-import {
   ICustomViewStyle,
   DEFAULT_ANIMATION_DIRECTION,
   DEFAULT_ANIMATION_TYPE,
