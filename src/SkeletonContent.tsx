@@ -263,7 +263,7 @@ const SkeletonContent: React.FunctionComponent<ISkeletonContentProps> = ({
       }
       let translateX = interpolate(animationValue,
         [0, 1],
-        outputRange: xOutputRange,
+        xOutputRange,
       );
       let translateY = interpolate(animationValue,
        [0, 1],
