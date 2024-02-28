@@ -43,7 +43,7 @@ export const DEFAULT_ANIMATION_DIRECTION: _animationDirection =
   'horizontalRight';
 export const DEFAULT_BONE_COLOR = '#E1E9EE';
 export const DEFAULT_HIGHLIGHT_COLOR = '#F2F8FC';
-export const DEFAULT_EASING: Animated.EasingNodeFunction = EasingNode.bezier(
+export const DEFAULT_EASING: Animated.EasingNodeFunction = Easing.bezier(
   0.5,
   0,
   0.25,
