@@ -8,7 +8,6 @@ import {
   DEFAULT_ANIMATION_TYPE,
   DEFAULT_BONE_COLOR,
   DEFAULT_BORDER_RADIUS,
-  DEFAULT_EASING,
   DEFAULT_DURATION,
   DEFAULT_HIGHLIGHT_COLOR,
   DEFAULT_LOADING,
@@ -48,7 +47,6 @@ const useLayout = () => {
 
 const SkeletonContent: React.FunctionComponent<ISkeletonContentProps> = ({
   containerStyle = styles.container,
-  easing = DEFAULT_EASING,
   duration = DEFAULT_DURATION,
   layout = [],
   animationType = 'none',
